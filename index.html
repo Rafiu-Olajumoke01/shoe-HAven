@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
+
 <body>
     <nav>
         <div class="logo">
@@ -70,15 +76,29 @@
             </div>
         </div>
         <div class="slider">
-            <a href="">
-                <img src="./asset/cyber.jpg" alt="">
-            </a>
-            <a href="">
-                <img src="./asset/cyber.jpg" alt="">
-            </a>
-            <a href="">
-                <img src="./asset/cyber.jpg" alt="">
-            </a>
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./images//SliderImages FirstTry.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <!-- <div class="carousel-item">
+                        <img src="./images/slider Image3.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/slider Images2.jpg" class="d-block w-100" alt="...">
+                    </div> -->
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
         </div>
         <div class="ads">
             <div class="ad_img">
@@ -95,7 +115,12 @@
                 </div>
                 <div class="mission_details">
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, dolore, temporibus, cum eos magnam pariatur odio quia quis aspernatur libero excepturi! Accusantium laboriosam alias distinctio numquam recusandae quisquam quia itaque cum aspernatur architecto, odio eos soluta placeat tempore sit quaerat voluptas dolorem. Molestiae iusto vitae nobis quam odio, numquam velit sapiente nam, asperiores earum totam perspiciatis laboriosam nostrum? Architecto dignissimos eum eos impedit natus nisi unde vitae rerum eligendi facilis.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, dolore, temporibus, cum eos
+                        magnam pariatur odio quia quis aspernatur libero excepturi! Accusantium laboriosam alias
+                        distinctio numquam recusandae quisquam quia itaque cum aspernatur architecto, odio eos soluta
+                        placeat tempore sit quaerat voluptas dolorem. Molestiae iusto vitae nobis quam odio, numquam
+                        velit sapiente nam, asperiores earum totam perspiciatis laboriosam nostrum? Architecto
+                        dignissimos eum eos impedit natus nisi unde vitae rerum eligendi facilis.
                     </p>
                 </div>
             </div>
@@ -203,7 +228,7 @@
             </div>
             <div class="product_item">
                 <div class="promo_img">
-                    <img src="./asset/cyber.jpg" alt="">
+                    <img src="images/slider Image3.jpeg" alt="">
                 </div>
                 <div class="promo_details">
                     <h3>Cyber Shoe</h3>
@@ -215,7 +240,7 @@
             </div>
             <div class="product_item">
                 <div class="promo_img">
-                    <img src="./asset/cyber.jpg" alt="">
+                    <img src="images/slider Images2.jpg" alt="">
                 </div>
                 <div class="promo_details">
                     <h3>Cyber Shoe</h3>
@@ -227,7 +252,7 @@
             </div>
             <div class="product_item">
                 <div class="promo_img">
-                    <img src="./asset/cyber.jpg" alt="">
+                    <img src="images/SliderImages FirstTry.jpg" alt="">
                 </div>
                 <div class="promo_details">
                     <h3>Cyber Shoe</h3>
@@ -239,7 +264,7 @@
             </div>
             <div class="product_item">
                 <div class="promo_img">
-                    <img src="./asset/cyber.jpg" alt="">
+                    <img src="images/secondtry.jpeg" alt="">
                 </div>
                 <div class="promo_details">
                     <h3>Cyber Shoe</h3>
@@ -254,7 +279,8 @@
         <section class="about_us">
             <div class="team">
                 <div class="team_img">
-                    <img src="./asset/cyber.jpg" alt="">
+                    <img src="https://image.shutterstock.com/image-photo/happy-professional-business-man-company-260nw-2424450769.jpg"
+                        alt="">
                 </div>
                 <div class="team_details">
                     <div class="team_title">
@@ -263,14 +289,17 @@
                     </div>
                     <div class="team_info">
                         <p>
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat, a iure praesentium, accusantium atque cupiditate aut vitae excepturi nesciunt perspiciatis dolorem dolore eaque voluptatem dicta quis natus officia est adipisci!
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat, a iure praesentium,
+                            accusantium atque cupiditate aut vitae excepturi nesciunt perspiciatis dolorem dolore eaque
+                            voluptatem dicta quis natus officia est adipisci!
                         </p>
                     </div>
                 </div>
             </div>
             <div class="team">
                 <div class="team_img">
-                    <img src="./asset/cyber.jpg" alt="">
+                    <img src="https://image.shutterstock.com/image-photo/portrait-smiling-young-multiethnic-woman-260nw-2318383273.jpg"
+                        alt="">
                 </div>
                 <div class="team_details">
                     <div class="team_title">
@@ -279,7 +308,9 @@
                     </div>
                     <div class="team_info">
                         <p>
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat, a iure praesentium, accusantium atque cupiditate aut vitae excepturi nesciunt perspiciatis dolorem dolore eaque voluptatem dicta quis natus officia est adipisci!
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat, a iure praesentium,
+                            accusantium atque cupiditate aut vitae excepturi nesciunt perspiciatis dolorem dolore eaque
+                            voluptatem dicta quis natus officia est adipisci!
                         </p>
                     </div>
                 </div>
@@ -347,8 +378,12 @@
         </div>
         <div class="foot_bottom">
             <p>Designed by Rafiu Olajumoke</p>
-           
+
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
 </body>
+
 </html>

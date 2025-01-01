@@ -168,6 +168,10 @@ nav {
     object-fit: cover;
 }
 
+.carousel-item img {
+    width: 50px;
+    height: auto;
+}
 .our_mission {
     display: flex;
     gap: 20px;
